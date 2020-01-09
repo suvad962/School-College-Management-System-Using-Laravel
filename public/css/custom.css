@@ -1,0 +1,88 @@
+body{
+    width: 100%;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.position{
+    position: relative;
+    height: 100vh;
+}
+
+.loginform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0 60px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.loginformleft{
+    background-image: url("../img/inner-login.jpg");
+    background-size: cover;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+}
+.loginformright{
+    background-color: white;
+    padding: 30px 30px 60px 30px;
+    border-radius: 0px 10px 10px 0px;
+}
+.loginheading{
+    text-align: center;
+    font-weight: 800;
+    color: #5d5959;
+}
+.textonly{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.leftlogotext, .lefttagline{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+.submit-buttom{
+    position: relative;
+}
+.submit-buttom button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 35px;
+    background-color: #ff5e34;
+    color: white;
+    font-size: large;
+    border: #ff5e34;
+    border-radius: 50px;
+    transition: all 100ms ease-in;
+}
+.submit-buttom button:hover {
+    background-color: #d44b3b;
+    transform: translateX(-50%) scale(1.1);
+}
+.form-control {
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+.form-control:focus {
+    border-color: #ff5d36;
+    box-shadow: none;
+}
+.form-control:focus::placeholder {
+    color: #e2e2e2;
+}
+@media (max-width: 576px) {
+    .loginform {
+        padding: 0 35px;
+    }
+    .loginformright{
+        border-radius: 10px;
+    }
+}
