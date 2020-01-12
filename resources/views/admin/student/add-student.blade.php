@@ -2,8 +2,8 @@
 
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
-    @include('../include/admin-sidenav')
-    <!-- Content Wrapper. Contains page content -->
+@include('../include/admin-sidenav')
+<!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <div class="content-header">
@@ -613,4 +613,4 @@
         </section>
         <!-- /.content -->
     </div>
-@include('../include/admin-footer');
+    @include('../include/admin-footer');

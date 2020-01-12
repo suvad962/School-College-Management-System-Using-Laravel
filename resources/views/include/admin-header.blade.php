@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="{{ URL::asset('css/admin/adminlte.min.css') }}">
     <!-- Daterange picker -->
     <link rel="stylesheet" href="{{ URL::asset('css/admin/daterangepicker.css') }}">
+    <!-- Overlay Scrollbar -->
+    <link rel="stylesheet" href="{{ URL::asset('css/admin/OverlayScrollbars.min.css') }}">
+    <!-- Add Custom CSS -->
+    <link rel="stylesheet" href="{{ URL::asset('css/custom.css') }}">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>

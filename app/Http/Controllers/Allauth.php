@@ -12,10 +12,11 @@ class Allauth extends Controller
         $checkbox = $request -> input('checkbox');
         //echo $name." ".$password. " ".$checkbox;
         if ($password == "admin"){
-            return redirect('/admin');
+            return redirect('/admin/dashboard');
         }
         else{
             return view('/login');
         }
     }
+
 }

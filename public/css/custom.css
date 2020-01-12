@@ -86,3 +86,12 @@ body{
         border-radius: 10px;
     }
 }
+
+/*Dashboard*/
+.child-nav li a {
+    font-size: 14px;
+    padding-left: 35px;
+}
+.layout-fixed .content-wrapper{
+    height: 100vh;
+}
